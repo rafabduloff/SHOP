@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+  }
+  h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  form {
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    padding: 20px;
+    padding-right: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    color: white;
+  }
+  label, select, input, textarea, button {
+    display: block;
+    width: calc(100% - 40px);
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input, select, textarea {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+  }
+  select {
+    appearance: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20viewBox%3D%220%200%2012%208%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M1.41%200L6%204.58L10.59%200L12%201.41L6%207.41L0%201.41L1.41%200Z%22%20fill%3D%22white%22%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    cursor: pointer;
+  }
+  option {
+    background-color: grey; /* Серый фон для опций */
+    color: white; /* Белый цвет текста для опций */
+  }
+  button {
+    background: #ffffff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #f8f9fa;
+  }
+  .hidden {
+    display: none;
+  }
+
+#costDisplay {
+  display: block;
+    width: calc(100% - 40px);
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
